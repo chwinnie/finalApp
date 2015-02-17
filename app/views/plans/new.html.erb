@@ -1,5 +1,5 @@
-<h1>Itineraries#new</h1>
-<%= form_for(@itinerary) do |f| %>
+<h1>Plans#new</h1>
+<%= form_for(@plan) do |f| %>
     <div class="field">
         <p>trip</p> 
         <%= f.text_field :trip%>
@@ -7,10 +7,6 @@
     <div class="field">
         <p>event name</p> 
         <%= f.text_field :event_name%>
-    </div>
-    <div class="field">
-        <p>event time</p> 
-        <%= f.datetime_field :event_time%>
     </div>
     <div class="actions">
         <%= f.submit %>

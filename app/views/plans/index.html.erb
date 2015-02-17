@@ -1,0 +1,13 @@
+<h1>Plans#index</h1>
+<table>
+ 	<tr>
+ 		<td>trip</td>
+ 		<td>event</td>
+ 	</tr>
+ 	<% @plans.each do |plan| %>
+ 	<tr>
+ 		<td><%= plan.trip %></td>
+ 		<td><%= plan.event_name %></td>
+ 	</tr>
+ 	<% end %>
+</table>

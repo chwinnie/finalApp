@@ -1,19 +1,19 @@
 class ItinerariesController < ApplicationController
   def new
-  	@itinerary = itinerary.new
+  	@itinerary = Itinerary.new
   end
 
   def create
-  	@itinerary = itinerary.new(itinerary_params)
+  	@itinerary = Itinerary.new(itinerary_params)
   	if @itinerary.save
-  		redirect_to itinerarys_path
+  		redirect_to itineraries_path
   	else
   		render 'new'
   	end
   end
 
   def index
-  	@itineraries=itinerary.all
+  	@itineraries=Itinerary.all
   end
 
   private
