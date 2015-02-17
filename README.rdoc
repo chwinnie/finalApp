@@ -1,13 +1,26 @@
-== README
+== Trip App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Heroku link:
 
-Things you may want to cover:
+Tables
+* User
+* Trip
+* Plan
 
-* Ruby version
+User
+* New: https://stark-eyrie-2471.herokuapp.com/users/new 
+* Display: https://stark-eyrie-2471.herokuapp.com/users
 
-* System dependencies
+Trip
+* New: https://stark-eyrie-2471.herokuapp.com/trips/new
+* Display: https://stark-eyrie-2471.herokuapp.com/trips
+
+Plan
+* New: https://stark-eyrie-2471.herokuapp.com/plans/new
+* Display: https://stark-eyrie-2471.herokuapp.com/plans
+
+
+
 
 * Configuration
 
