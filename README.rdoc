@@ -1,6 +1,6 @@
 == Trip App
 
-Heroku link:
+Heroku link: https://stark-eyrie-2471.herokuapp.com
 
 Tables
 * User
