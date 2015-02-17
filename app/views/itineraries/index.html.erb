@@ -1,0 +1,16 @@
+<h1>Itineraries#index</h1>
+<table>
+ 	<tr>
+ 		<td>trip</td>
+ 		<td>event</td>
+ 		<td>time</td>
+ 	</tr>
+ 	<% @itineraries.each do |itinerary| %>
+ 	<tr>
+ 		<td><%= itinerary.trip %></td>
+ 		<td><%= itinerary.event_name %></td>
+ 		<td><%= itinerary.event_time %></td>
+ 	</tr>
+ 	<% end %>
+</table>
+
