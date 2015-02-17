@@ -1,0 +1,14 @@
+<h1>Trips#new</h1>
+<%= form_for(@trip) do |f| %>
+    <div class="field">
+        <p>name</p> 
+        <%= f.text_field :name%>
+    </div>
+    <div class="field">
+        <p>location</p> 
+        <%= f.text_field :location%>
+    </div>
+    <div class="actions">
+        <%= f.submit %>
+    </div>
+<% end %>
