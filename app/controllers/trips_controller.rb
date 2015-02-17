@@ -13,7 +13,7 @@ class TripsController < ApplicationController
   end
 
   def index
-  	@trips=Trips.all
+  	@trips=Trip.all
   end
 
   private
