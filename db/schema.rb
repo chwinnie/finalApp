@@ -11,10 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150217040942) do
+ActiveRecord::Schema.define(version: 20150222212507) do
 
   create_table "itineraries", force: :cascade do |t|
-    t.string   "trip"
+    t.string   "day"
     t.string   "event_name"
     t.datetime "event_time"
     t.datetime "created_at", null: false
